@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/pressure_menu_checkbox"
+        android:checkable="true"
+        android:orderInCategory="1"
+        android:title="@string/pressure" />
+    <item
+        android:id="@+id/humidity_menu_checkbox"
+        android:checkable="true"
+        android:orderInCategory="2"
+        android:title="@string/tomorrow_forecast" />
+    <item
+        android:id="@+id/wind_menu_checkbox"
+        android:checkable="true"
+        android:orderInCategory="3"
+        android:title="@string/week_forecast" />
+
+
+</menu>

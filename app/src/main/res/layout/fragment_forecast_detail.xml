@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_view_pressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text_view_tomorrow_forecast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text_view_week_forecast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_pressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        android:text="@string/pressure" />
+
+    <CheckBox
+        android:id="@+id/checkbox_tomorrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        android:text="@string/tomorrow_forecast" />
+
+    <CheckBox
+        android:id="@+id/checkbox_week"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        android:text="@string/week_forecast" />
+
+</LinearLayout>

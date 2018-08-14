@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Солнечная погодка</string>
+    <string name="share_button">Поделись погодой</string>
+    <string name="last_share_weather">Вы поделились погодой в: </string>
+
+    <string name="rainy">+10 Сегодня Дождь</string>
+    <string name="sunny">+20 Сегодня Солнечно</string>
+
+    <string name="pressure">Давление</string>
+    <string name="tomorrow_forecast">Влажность</string>
+    <string name="week_forecast">Ветер</string>
+    <string name="pressure_value">760 мм.рт.ст</string>
+    <string name="tomorrow_weather">+30 Будет Солнечно</string>
+    <string name="week_weather">Всю неделю будет хорошая погода</string>
+</resources>
